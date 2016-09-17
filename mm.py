@@ -15,8 +15,7 @@ def log(submission, word, prices):
 
 r = praw.Reddit(user_agent='Mech market logger for market research in mechanical keyboards')
 
-words = ["SA", "DSA", "gmk", "Carbon", "Hydro"]
-words = [x.lower() for x in words]
+words = ["sa", "dsa", "gmk", "carbon", "hydro"]
 
 while True:
     print "Scanning..."
